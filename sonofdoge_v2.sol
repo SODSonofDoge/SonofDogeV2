@@ -398,7 +398,7 @@ contract SonofDogeV2 is Context, IERC20, Ownable {
     address[] private _excluded;
    
     uint256 private constant MAX = ~uint256(0);
-    uint256 private _tTotal = 69_000_000_000_000_000_000 * 10**9;
+    uint256 private _tTotal = 6_900_000_000_000_000_000 * 10**9;
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
